@@ -404,6 +404,14 @@ input[type=text], textarea {
     width: 100vw;
     height: 100vh;
 }
+
+.form{
+    padding: 30px;
+    font-size: 15px;
+    grid-column: 2 / span 1;
+    grid-row: 5 / span 1;
+    margin-bottom: 300px;
+}
   
   .item{
     width:48%;
