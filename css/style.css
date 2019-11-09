@@ -103,6 +103,7 @@ nav a:hover{
 
     grid-column: 2 / span 1;
     grid-row: 4/ span 1;
+
   }
 
   .flip-card-inner {
@@ -368,6 +369,13 @@ input[type=text], textarea {
   }
 /* end of formatting for contact form ^^^^^ */
 
+/* filter on photos  */
+img:hover{
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+  }
+/* filter on photos */
+
 /* EVERYTHING ABOVE FOR MOBILE, INSERTING MEDIA QUERY */
 
 @media only screen and (min-width: 800px) {
@@ -411,6 +419,12 @@ input[type=text], textarea {
     grid-column: 2 / span 1;
     grid-row: 5 / span 1;
     margin-bottom: 300px;
+}
+
+.footer{
+    grid-column: 2 / span 1;
+    grid-row: 6 / span 1;
+    margin-top: 150px;
 }
   
   .item{
