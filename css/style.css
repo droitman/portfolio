@@ -54,6 +54,10 @@ nav a:hover{
   text-decoration: underline; 
 }
 
+.navactive{
+    text-decoration: underline;
+}
+
 .skip a{
   background: white;
   left: 0;
@@ -89,7 +93,6 @@ nav a:hover{
   }
 
 /* start flipcard */
-
 .flip-card {
     background-color: transparent;
     width: 400px;
@@ -136,7 +139,6 @@ nav a:hover{
     color:white;
     transform: rotateY(180deg);
   } 
-
 /* end flipcard */
   
 .item{
@@ -163,7 +165,6 @@ nav a:hover{
   display: grid;
   grid-column: 1 / -1;
   grid-row: 1 / auto;
-  /*Provided*/
   background-color: #df5b35;
   padding: 20px 20px; 
   text-align: left; 
@@ -195,14 +196,12 @@ nav a:hover{
 
 
 header{
-  background-attachment: fixed; /* Parallax effect */
+  background-attachment: fixed; /* Parallax */
   background-image: url("../images/header.jpg");      
-  background-position: center;  /* Parallax effect */
-  background-repeat: no-repeat; /* Parallax effect */
-  background-size: cover;       /* Parallax effect */
+  background-position: center;  /* Parallax */
+  background-repeat: no-repeat; /* Parallax */
+  background-size: cover;       /* Parallax */
   color: black;
-  /* height: 150px;                 */
-  /* Parallax effect */
 
   
   display: grid;
@@ -331,8 +330,6 @@ footer p{
     grid-column: 2 / span 1;
     grid-row: 5 / span 1;
     margin-bottom: 150px;
-
-
 }
 
 input[type=text], textarea {
@@ -374,7 +371,8 @@ img:hover{
     filter: blur(4px);
     -webkit-filter: blur(4px);
   }
-/* filter on photos */
+/* filter on photos ^^ */
+
 
 /* EVERYTHING ABOVE FOR MOBILE, INSERTING MEDIA QUERY */
 
